@@ -25,20 +25,7 @@ export const profile = {
   ] as [string, string],
 }
 
-export const education = [
-  {
-    period: "2020.01 - 2024.05",
-    degree: ["Ph.D. in Data Science", "数据科学博士"] as [string, string],
-    school: ["National University of Singapore (NUS)", "新加坡国立大学"] as [string, string],
-    details: ["Advisor: Prof. Mohan S. Kankanhalli", "导师：Mohan S. Kankanhalli 教授"] as [string, string],
-  },
-  {
-    period: "2015.08 - 2019.06",
-    degree: ["B.E. in Computer Science and Technology", "计算机科学与技术学士"] as [string, string],
-    school: ["Zhejiang University (ZJU)", "浙江大学"] as [string, string],
-    details: ["Advisor: Prof. Jianling Sun | He Zhijun Class", "导师：孙建伶 教授 | 何志均班成员"] as [string, string],
-  }
-]
+
 
 export const news = [
   {
@@ -235,6 +222,21 @@ export const experience = [
     period: "2024 - Present",
     role: ["Senior Researcher, Tencent", "高级研究员，腾讯"] as [string, string],
   },
+]
+
+export const education = [
+  {
+    period: "2020.01 - 2024.05",
+    degree: ["Ph.D. in Data Science", "数据科学博士"] as [string, string],
+    school: ["National University of Singapore (NUS)", "新加坡国立大学"] as [string, string],
+    details: ["Advisor: Prof. Mohan S. Kankanhalli", "导师：Mohan S. Kankanhalli 教授"] as [string, string],
+  },
+  {
+    period: "2015.08 - 2019.06",
+    degree: ["B.E. in Computer Science and Technology", "计算机科学与技术学士"] as [string, string],
+    school: ["Zhejiang University (ZJU)", "浙江大学"] as [string, string],
+    details: ["Advisor: Prof. Jianling Sun | He Zhijun Class", "导师：孙建伶 教授 | 何志均班成员"] as [string, string],
+  }
 ]
 
 export const awards = [];
