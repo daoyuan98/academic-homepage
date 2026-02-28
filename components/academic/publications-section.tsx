@@ -41,7 +41,7 @@ export function PublicationsSection() {
 
       <p className="mb-4 text-xs text-muted-foreground">
         {t(
-          "* denotes co-first/core author, + denotes corresponding author",
+          "* denotes project lead / corresponding author",
           "* 表示共同第一/核心作者，+ 表示通讯作者"
         )}
       </p>
@@ -81,6 +81,11 @@ export function PublicationsSection() {
               className="text-sm text-muted-foreground [&_b]:font-semibold [&_b]:text-foreground"
               dangerouslySetInnerHTML={{ __html: pub.authors }}
             />
+            {pub.description && (
+              <p className="mt-2 text-xs italic text-muted-foreground/80 bg-muted/30 p-2 rounded border-l-2 border-primary/30">
+                {pub.description}
+              </p>
+            )}
             <div className="flex flex-wrap items-center gap-3 pt-0.5">
               <span className="text-sm">
                 <VenueLabel pub={pub} />, {pub.year}.
