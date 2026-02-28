@@ -100,12 +100,13 @@ export const publications: Publication[] = [
   },
   {
     title: "FlashIn: Fast and Accurate Image Inversion for Real-time Image Editing",
-    authors: "<b>Guangzhi Wang</b>, Zhaoyang Zhang, Xiaoyu Li, Ying Shan",
+    authors: "<b>Guangzhi Wang</b>",
     venue: "CVPR",
     year: 2026,
     venueClass: "top",
     tags: ["selected", "generation"],
     paperUrl: "#",
+    description: "Special thanks to Zhaoyang Zhang, Xiaoyu Li, and Ying Shan for their insightful discussions and support during this project.",
   },
   {
     title: "CCRemover: Towards Contextually Consistent Removal of Objects and Visual Effects in Videos",
