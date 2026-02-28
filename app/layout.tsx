@@ -8,8 +8,9 @@ const _notoSansSC = Noto_Sans_SC({ subsets: ["latin", "latin-ext"], weight: ["40
 const _sourceSerif = Source_Serif_4({ subsets: ["latin"], weight: ["400", "600", "700"] });
 
 export const metadata: Metadata = {
-  title: 'Academic Homepage',
-  description: 'Personal academic homepage template with bilingual support and dark mode.',
+  
+  title: "Guangzhi Wang's Homepage",
+  description: "Personal homepage of Guangzhi Wang",
   icons: {
     icon: [
       {
