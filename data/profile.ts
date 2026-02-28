@@ -20,8 +20,8 @@ export const profile = {
     "你好！我是腾讯 PCG ARC Lab 的高级研究员。我的核心研究愿景是：<strong>生成式世界、智能体、及其交互</strong>。此前，我在新加坡国立大学获得博士学位，在浙江大学获得本科学位。",
   ] as [string, string],
   callout: [
-    '<strong class="text-destructive">Prospective Interns:</strong> We are actively seeking highly self-motivated research interns to work on advanced Vision-Language-Action (VLA) models and generative environments. Reach out via <a href="mailto:guangzhi.wang@u.nus.edu" class="text-primary hover:underline">email</a>.',
-    '<strong class="text-destructive">核心实习生招募：</strong>正在寻找极具自驱力的研究实习生，参与前沿的视觉-语言-动作（VLA）模型与生成式世界模型的研究。欢迎通过<a href="mailto:guangzhi.wang@u.nus.edu" class="text-primary hover:underline">邮件</a>联系。',
+    '<strong class="text-destructive">Join Us:</strong> We are actively seeking self-motivated <strong>research interns</strong> to work on Vision-Language-Action (VLA) models and generative environments. We also welcome <strong>collaborations</strong> of all forms. Reach out via <a href="mailto:guangzhi.wang@u.nus.edu" class="text-primary hover:underline">email</a>.',
+    '<strong class="text-destructive">人才招募与合作：</strong> 长期寻找极具自驱力的<strong>研究实习生</strong>，共同探索 VLA 模型与生成式世界；同时非常欢迎<strong>各种形式的学术合作</strong>，期待通过<a href="mailto:guangzhi.wang@u.nus.edu" class="text-primary hover:underline">邮件</a>交流。',
   ] as [string, string],
 }
 
@@ -89,6 +89,42 @@ export const publicationTags = [
 ]
 
 export const publications: Publication[] = [
+  {
+    title: "CubeComposer: Spatio-Temporal Autoregressive 4K 360° Video Generation from Perspective Video",
+    authors: "Lingen Li, <b>Guangzhi Wang</b>*, Xiaoyu Li, Zhaoyang Zhang, Qi Dou, Jinwei Gu, Tianfan Xue, Ying Shan",
+    venue: "CVPR",
+    venueClass: "top",
+    year: 2026,
+    tags: ["selected", "generation"],
+    paperUrl: "#", // 稍后有了链接记得补上
+  },
+  {
+    title: "FlashIn: Fast and Accurate Image Inversion for Real-time Image Editing",
+    authors: "<b>Guangzhi Wang</b>, Zhaoyang Zhang, Xiaoyu Li, Ying Shan",
+    venue: "CVPR",
+    year: 2026,
+    venueClass: "top",
+    tags: ["selected", "generation"],
+    paperUrl: "#",
+  },
+  {
+    title: "CCRemover: Towards Contextually Consistent Removal of Objects and Visual Effects in Videos",
+    authors: "<b>Guangzhi Wang</b>, Xiaoyu Li, Xiaodong Cun, Lingen Li, Ying Shan",
+    venue: "Coming Soon",
+    venueClass: "arxiv",
+    year: 2026,
+    tags: ["generation"],
+    paperUrl: "#",
+  },
+  {
+    title: "EditProp: Consistent Video-to-Video Translation by Editing Propagation",
+    authors: "<b>Guangzhi Wang</b>, Xiaoyu Li, Xiaodong Cun, Zhaoyang Zhang, Ying Shan",
+    venue: "Coming Soon",
+    venueClass: "arxiv",
+    year: 2026,
+    tags: ["generation"],
+    paperUrl: "#",
+  },
   {
     title: "Tooncomposer: Streamlining cartoon production with generative post-keyframing",
     authors: "Lingen Li, <b>Guangzhi Wang</b>*, Zhaoyang Zhang, Yaowei Li, Xiaoyu Li, Dou Qi, Jinwei Gu, Tianfan Xue, Ying Shan",
