@@ -16,8 +16,8 @@ export const profile = {
     { label: "Google Scholar", url: "https://scholar.google.com/citations?user=riUAC6kAAAAJ&hl=en" },
   ],
   bio: [
-    "I am a Senior Researcher at ARC Lab, Tencent PCG, based in Shenzhen. My research focuses on: <strong>generative world, agents and their interactions</strong>. Prior to this, I obtained my Ph.D. from the National University of Singapore, supervised by Prof. Mohan Kankanhalli. I obtained my bachelor degree from Zhejiang University.",
-    "你好！我是腾讯 PCG ARC Lab 的高级研究员。我的核心研究愿景是：<strong>生成式世界、智能体、及其交互</strong>。此前，我在新加坡国立大学获得博士学位，在浙江大学获得本科学位。",
+    "I am a Senior Researcher at ARC Lab, Tencent IEG, based in Shenzhen. My research focuses on: <strong>generative world, agents and their interactions</strong>. Prior to this, I obtained my Ph.D. from the National University of Singapore, supervised by Prof. Mohan Kankanhalli. I obtained my bachelor degree from Zhejiang University.",
+    "你好！我是腾讯 IEG ARC Lab 的高级研究员。我的核心研究愿景是：<strong>生成式世界、智能体、及其交互</strong>。此前，我在新加坡国立大学获得博士学位，在浙江大学获得本科学位。",
   ] as [string, string],
   callout: [
     '<strong class="text-destructive">Join Us:</strong> We are actively seeking self-motivated <strong>research interns</strong> to work on Vision-Language-Action (VLA) models and generative environments. We also welcome <strong>collaborations</strong> of all forms. Reach out via <a href="mailto:guangzhi.wang@u.nus.edu" class="text-primary hover:underline">email</a>.',
@@ -108,12 +108,13 @@ export const publicationTags = [
 export const publications: Publication[] = [
   {
     title: "TaskFrame: Connecting Task-Level Planning with Frame-Level Control for Game Agents",
-    authors: "<b>Guangzhi Wang</b>, Junfu Pu, Yiran Wang, Xingyilang Yin, Honghao Chen, Cheng Cheng, Lingen Li, Yinan Zhou, Jiarui Wu, Yinuo Jiang, Hongbo Jin, Xiaodong Cun, Ying Shan",
+    authors: "<b>Guangzhi Wang</b>*, Junfu Pu*, Yiran Wang*, Xingyilang Yin*, Honghao Chen, Cheng Cheng, Lingen Li, Yinan Zhou, Jiarui Wu, Yinuo Jiang, Hongbo Jin, Xiaodong Cun, Ying Shan",
     venue: "ArXiv",
     venueClass: "arxiv",
     year: 2026,
     tags: ["selected", "agents"],
     paperUrl: "https://arxiv.org/abs/2610.40276",
+    projectUrl: "https://task-frame.github.io/",
   },
   {
     title: "Player-1: Learning to Play from Synthetic Experience",
