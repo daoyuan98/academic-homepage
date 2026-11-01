@@ -29,6 +29,20 @@ export const profile = {
 
 export const news = [
   {
+    date: "Oct 2026",
+    content: [
+      'Released <a href="https://arxiv.org/abs/2610.40276">TaskFrame</a> and <a href="https://arxiv.org/abs/2610.20584">Player-1</a>, on task-level planning and frame-level control for game agents.',
+      '发布 <a href="https://arxiv.org/abs/2610.40276">TaskFrame</a> 与 <a href="https://arxiv.org/abs/2610.20584">Player-1</a>，研究游戏智能体的任务级规划与帧级控制。',
+    ] as [string, string],
+  },
+  {
+    date: "Sep 2026",
+    content: [
+      'Released <a href="https://arxiv.org/abs/2609.25001">GameHorizon Suite</a>, a multi-horizon data and evaluation suite for gameplay.',
+      '发布 <a href="https://arxiv.org/abs/2609.25001">GameHorizon Suite</a>，面向游戏场景的多时间尺度数据与评测套件。',
+    ] as [string, string],
+  },
+  {
     date: "Feb 2026",
     content: [
       'Two papers (<a href="https://arxiv.org/abs/2603.04291">CubeComposer</a> and <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Wang_FlashIn_Fast_and_Accurate_Image_Inversion_for_Real-time_Image_Editing_CVPR_2026_paper.html">FlashIn</a>) accepted to CVPR 2026.',
@@ -83,6 +97,7 @@ export const publicationTags = [
   { key: "all", label: ["All", "全部"] as [string, string] },
   // 1. 把 Video 拔高，统称为生成式模型
   { key: "generation", label: ["Generative Models", "生成式底座 (Video/Image)"] as [string, string] }, 
+  { key: "agents", label: ["Agents & Interaction", "智能体与交互"] as [string, string] },
   // 2. VLM 保持不变，这是现在的绝对风口
   { key: "vlm", label: ["Multimodal LLMs", "多模态大模型"] as [string, string] },
   // 3. 终极包装：把 3D 和传统 CV 包装成具身感知！
@@ -91,6 +106,37 @@ export const publicationTags = [
 ]
 
 export const publications: Publication[] = [
+  {
+    title: "TaskFrame: Connecting Task-Level Planning with Frame-Level Control for Game Agents",
+    authors: "<b>Guangzhi Wang</b>, Junfu Pu, Yiran Wang, Xingyilang Yin, Honghao Chen, Cheng Cheng, Lingen Li, Yinan Zhou, Jiarui Wu, Yinuo Jiang, Hongbo Jin, Xiaodong Cun, Ying Shan",
+    venue: "ArXiv",
+    venueClass: "arxiv",
+    year: 2026,
+    tags: ["selected", "agents"],
+    paperUrl: "https://arxiv.org/abs/2610.40276",
+  },
+  {
+    title: "Player-1: Learning to Play from Synthetic Experience",
+    authors: "Mingyu Ouyang, Yiran Wang, Siyuan Hu, Xingyilang Yin, Huiqiang Sun, <b>Guangzhi Wang</b>, Junfu Pu, Cheng Cheng, Honghao Chen, Ying Shan, Mike Zheng Shou, Hwee Tou Ng",
+    venue: "ArXiv",
+    venueClass: "arxiv",
+    year: 2026,
+    tags: ["selected", "agents"],
+    paperUrl: "https://arxiv.org/abs/2610.20584",
+    codeUrl: "https://github.com/TencentARC/Player-1",
+    projectUrl: "https://player-1-project.github.io/",
+  },
+  {
+    title: "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+    authors: "Yiran Wang*, Xingyilang Yin*, Junfu Pu*, <b>Guangzhi Wang</b>*, Kaifeng Li, Mingyu Ouyang, Huiqiang Sun, Lingen Li, Cheng Cheng, Wangbo Yu, Honghao Chen, Xiaodong Cun, Chi-Man Pun, Zhiguo Cao, Ying Shan",
+    venue: "ArXiv",
+    venueClass: "arxiv",
+    year: 2026,
+    tags: ["selected", "agents"],
+    paperUrl: "https://arxiv.org/abs/2609.25001",
+    codeUrl: "https://github.com/TencentARC/GameHorizon",
+    projectUrl: "https://gamehorizon-suite.github.io",
+  },
   {
     title: "CubeComposer: Spatio-Temporal Autoregressive 4K 360° Video Generation from Perspective Video",
     authors: "Lingen Li, <b>Guangzhi Wang</b>*, Xiaoyu Li, Zhaoyang Zhang, Qi Dou, Jinwei Gu, Tianfan Xue, Ying Shan",
