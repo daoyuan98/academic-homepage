@@ -31,22 +31,22 @@ export const news = [
   {
     date: "Feb 2026",
     content: [
-      'Two papers (<a href="#">CubeComposer</a> and <a href="#">FlashIn</a>) accepted to CVPR 2026.',
-      '两篇论文（<a href="#">CubeComposer</a> 和 <a href="#">FlashIn</a>）被顶级会议 CVPR 2026 接收。',
+      'Two papers (<a href="https://arxiv.org/abs/2603.04291">CubeComposer</a> and <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Wang_FlashIn_Fast_and_Accurate_Image_Inversion_for_Real-time_Image_Editing_CVPR_2026_paper.html">FlashIn</a>) accepted to CVPR 2026.',
+      '两篇论文（<a href="https://arxiv.org/abs/2603.04291">CubeComposer</a> 和 <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Wang_FlashIn_Fast_and_Accurate_Image_Inversion_for_Real-time_Image_Editing_CVPR_2026_paper.html">FlashIn</a>）被顶级会议 CVPR 2026 接收。',
     ] as [string, string],
   },
   {
     date: "Jan 2026",
     content: [
-      'Two papers (<a href="#">Gencompositor</a> and <a href="#">Tooncomposer</a>) accepted to ICLR 2026.',
-      '两篇论文（<a href="#">Gencompositor</a> 和 <a href="#">Tooncomposer</a>）被顶级会议 ICLR 2026 接收。',
+      'Two papers (<a href="https://arxiv.org/abs/2509.02460">Gencompositor</a> and <a href="https://arxiv.org/abs/2508.10881">Tooncomposer</a>) accepted to ICLR 2026.',
+      '两篇论文（<a href="https://arxiv.org/abs/2509.02460">Gencompositor</a> 和 <a href="https://arxiv.org/abs/2508.10881">Tooncomposer</a>）被顶级会议 ICLR 2026 接收。',
     ] as [string, string],
   },
   {
     date: "Aug 2025",
     content: [
-      'One paper (<a href="#">Blobctrl</a>) accepted to SIGGRAPH Asia 2025.',
-      '一篇论文（<a href="#">Blobctrl</a>）被图形学顶会 SIGGRAPH Asia 2025 接收。',
+      'One paper (<a href="https://arxiv.org/abs/2503.13434">Blobctrl</a>) accepted to SIGGRAPH Asia 2025.',
+      '一篇论文（<a href="https://arxiv.org/abs/2503.13434">Blobctrl</a>）被图形学顶会 SIGGRAPH Asia 2025 接收。',
     ] as [string, string],
   },
   {
@@ -96,7 +96,7 @@ export const publications: Publication[] = [
     venueClass: "top",
     year: 2026,
     tags: ["selected", "generation"],
-    paperUrl: "#", // 稍后有了链接记得补上
+    paperUrl: "https://arxiv.org/abs/2603.04291",
   },
   {
     title: "FlashIn: Fast and Accurate Image Inversion for Real-time Image Editing",
@@ -105,7 +105,7 @@ export const publications: Publication[] = [
     year: 2026,
     venueClass: "top",
     tags: ["selected", "generation"],
-    paperUrl: "#",
+    paperUrl: "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_FlashIn_Fast_and_Accurate_Image_Inversion_for_Real-time_Image_Editing_CVPR_2026_paper.html",
     description: "Special thanks to Zhaoyang Zhang, Xiaoyu Li, and Ying Shan for their insightful discussions and support during this project.",
   },
   {
@@ -115,7 +115,6 @@ export const publications: Publication[] = [
     venueClass: "arxiv",
     year: 2026,
     tags: ["generation"],
-    paperUrl: "#",
   },
   {
     title: "EditProp: Consistent Video-to-Video Translation by Editing Propagation",
@@ -124,7 +123,6 @@ export const publications: Publication[] = [
     venueClass: "arxiv",
     year: 2026,
     tags: ["generation"],
-    paperUrl: "#",
   },
   {
     title: "Tooncomposer: Streamlining cartoon production with generative post-keyframing",
@@ -133,7 +131,7 @@ export const publications: Publication[] = [
     venueClass: "top",
     year: 2026,
     tags: ["selected", "generation"],
-    paperUrl: "#",
+    paperUrl: "https://arxiv.org/abs/2508.10881",
   },
   {
     title: "Gencompositor: generative video compositing with diffusion transformer",
@@ -142,7 +140,7 @@ export const publications: Publication[] = [
     venueClass: "top",
     year: 2026,
     tags: ["selected", "generation"],
-    paperUrl: "#",
+    paperUrl: "https://arxiv.org/abs/2509.02460",
   },
   {
     title: "Blobctrl: A unified and flexible framework for element-level image generation and editing",
@@ -151,7 +149,7 @@ export const publications: Publication[] = [
     venueClass: "top",
     year: 2025,
     tags: ["selected", "generation"],
-    paperUrl: "#",
+    paperUrl: "https://arxiv.org/abs/2503.13434",
   },
   {
     title: "S3Editor: A Sparse Semantic-Disentangled Self-Training Framework for Face Video Editing",
@@ -169,7 +167,7 @@ export const publications: Publication[] = [
     venueClass: "top",
     year: 2024,
     tags: ["selected", "vlm"],
-    paperUrl: "#",
+    paperUrl: "https://arxiv.org/abs/2311.17092",
   },
   {
     title: "SEED-Bench: Benchmarking Multimodal LLMs with Generative Comprehension",
@@ -196,7 +194,7 @@ export const publications: Publication[] = [
     venueClass: "top",
     year: 2024,
     tags: ["all", "cv", "embodied"],
-    paperUrl: "#",
+    paperUrl: "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Bilateral_Adaptation_for_Human-Object_Interaction_Detection_with_Occlusion-Robustness_CVPR_2024_paper.html",
   },
   {
     title: "PELA: Learning parameter-efficient models with low-rank approximation",
@@ -205,7 +203,7 @@ export const publications: Publication[] = [
     venueClass: "top",
     year: 2024,
     tags: ["all", "cv"],
-    paperUrl: "#",
+    paperUrl: "https://arxiv.org/abs/2310.10700",
   },
   {
     title: "Text to Point Cloud Localization with Relation-Enhanced Transformer",
@@ -214,7 +212,7 @@ export const publications: Publication[] = [
     venueClass: "top",
     year: 2023,
     tags: ["all", "embodied", "cv"],
-    paperUrl: "#",
+    paperUrl: "https://arxiv.org/abs/2301.05372",
   },
   {
     title: "Distance Matters in Human-Object Interaction Detection",
@@ -223,7 +221,7 @@ export const publications: Publication[] = [
     venueClass: "top",
     year: 2022,
     tags: ["all", "embodied", "cv"],
-    paperUrl: "#",
+    paperUrl: "https://arxiv.org/abs/2207.01869",
   },
   {
     title: "Chairs Can be Stood on: Overcoming Object Bias in Human-Object Interaction Detection",
@@ -232,7 +230,7 @@ export const publications: Publication[] = [
     venueClass: "top",
     year: 2022,
     tags: ["all", "embodied", "cv"],
-    paperUrl: "#",
+    paperUrl: "https://arxiv.org/abs/2207.02400",
   },
   {
     title: "Semantic-aware Triplet Loss for Image Classification",
@@ -241,7 +239,7 @@ export const publications: Publication[] = [
     venueClass: "journal",
     year: 2022,
     tags: ["all", "cv"],
-    paperUrl: "#",
+    paperUrl: "https://doi.org/10.1109/TMM.2022.3177929",
   },
   {
     title: "Multi-source distilling domain adaptation",
@@ -250,7 +248,7 @@ export const publications: Publication[] = [
     venueClass: "top",
     year: 2020,
     tags: ["all", "cv"],
-    paperUrl: "#",
+    paperUrl: "https://arxiv.org/abs/1911.11554",
   },
 ]
 
