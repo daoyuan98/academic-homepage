@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { FileText, Github, Globe, Star } from "lucide-react"
 import { useLanguage } from "@/context/language-context"
-import { publications, publicationTags, type Publication } from "@/data/profile"
+import { profile, publications, publicationTags, type Publication } from "@/data/profile"
 import { SectionTitle } from "./section-title"
 import { cn } from "@/lib/utils"
 
@@ -27,13 +27,22 @@ export function PublicationsSection() {
       ? publications
       : publications.filter((p) => p.tags.includes(activeTag))
 
+  const fullListUrl = profile.links.find((link) => link.label === "Google Scholar")?.url
+
   return (
     <section>
       <SectionTitle
         extra={
-          <a href="#" className="text-sm text-primary hover:underline">
-            {t("Full List", "完整列表")}
-          </a>
+          fullListUrl && (
+            <a
+              href={fullListUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-primary hover:underline"
+            >
+              {t("Full List", "完整列表")}
+            </a>
+          )
         }
       >
         {t("Selected Publications", "代表性论文")}
