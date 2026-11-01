@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { ExternalLink, Star } from "lucide-react"
+import { FileText, Github, Globe, Star } from "lucide-react"
 import { useLanguage } from "@/context/language-context"
 import { publications, publicationTags, type Publication } from "@/data/profile"
 import { SectionTitle } from "./section-title"
@@ -90,22 +90,6 @@ export function PublicationsSection() {
               <span className="text-sm">
                 <VenueLabel pub={pub} />, {pub.year}.
               </span>
-              {pub.codeUrl && (
-                <a
-                  href={pub.codeUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 rounded border border-border px-2 py-0.5 text-xs text-muted-foreground transition-colors hover:text-foreground"
-                >
-                  <Star className="h-3 w-3" />
-                  Stars
-                </a>
-              )}
-              {pub.stars !== undefined && (
-                <span className="rounded border border-border px-2 py-0.5 text-xs text-muted-foreground">
-                  {pub.stars}
-                </span>
-              )}
               {pub.paperUrl && (
                 <a
                   href={pub.paperUrl}
@@ -113,9 +97,37 @@ export function PublicationsSection() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
                 >
-                  <ExternalLink className="h-3 w-3" />
+                  <FileText className="h-3 w-3" />
                   Paper
                 </a>
+              )}
+              {pub.codeUrl && (
+                <a
+                  href={pub.codeUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
+                >
+                  <Github className="h-3 w-3" />
+                  Code
+                </a>
+              )}
+              {pub.projectUrl && (
+                <a
+                  href={pub.projectUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
+                >
+                  <Globe className="h-3 w-3" />
+                  {t("Project Page", "项目主页")}
+                </a>
+              )}
+              {pub.stars !== undefined && (
+                <span className="inline-flex items-center gap-1 rounded border border-border px-2 py-0.5 text-xs text-muted-foreground">
+                  <Star className="h-3 w-3" />
+                  {pub.stars}
+                </span>
               )}
             </div>
           </article>

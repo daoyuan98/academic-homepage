@@ -74,6 +74,8 @@ export type Publication = {
   tags: string[]
   paperUrl?: string
   codeUrl?: string
+  projectUrl?: string
+  description?: string
   stars?: number
 }
 
@@ -97,6 +99,8 @@ export const publications: Publication[] = [
     year: 2026,
     tags: ["selected", "generation"],
     paperUrl: "https://arxiv.org/abs/2603.04291",
+    codeUrl: "https://github.com/TencentARC/CubeComposer",
+    projectUrl: "https://lg-li.github.io/project/cubecomposer",
   },
   {
     title: "FlashIn: Fast and Accurate Image Inversion for Real-time Image Editing",
@@ -132,6 +136,8 @@ export const publications: Publication[] = [
     year: 2026,
     tags: ["selected", "generation"],
     paperUrl: "https://arxiv.org/abs/2508.10881",
+    codeUrl: "https://github.com/TencentARC/ToonComposer",
+    projectUrl: "https://lg-li.github.io/project/tooncomposer",
   },
   {
     title: "Gencompositor: generative video compositing with diffusion transformer",
@@ -141,6 +147,8 @@ export const publications: Publication[] = [
     year: 2026,
     tags: ["selected", "generation"],
     paperUrl: "https://arxiv.org/abs/2509.02460",
+    codeUrl: "https://github.com/TencentARC/GenCompositor",
+    projectUrl: "https://gencompositor.github.io/",
   },
   {
     title: "Blobctrl: A unified and flexible framework for element-level image generation and editing",
@@ -150,6 +158,8 @@ export const publications: Publication[] = [
     year: 2025,
     tags: ["selected", "generation"],
     paperUrl: "https://arxiv.org/abs/2503.13434",
+    codeUrl: "https://github.com/TencentARC/BlobCtrl",
+    projectUrl: "https://liyaowei-stu.github.io/project/BlobCtrl/",
   },
   {
     title: "S3Editor: A Sparse Semantic-Disentangled Self-Training Framework for Face Video Editing",
@@ -168,6 +178,7 @@ export const publications: Publication[] = [
     year: 2024,
     tags: ["selected", "vlm"],
     paperUrl: "https://arxiv.org/abs/2311.17092",
+    codeUrl: "https://github.com/AILab-CVC/SEED-Bench",
   },
   {
     title: "SEED-Bench: Benchmarking Multimodal LLMs with Generative Comprehension",
@@ -177,6 +188,7 @@ export const publications: Publication[] = [
     year: 2023,
     tags: ["selected", "vlm"],
     paperUrl: "https://arxiv.org/abs/2307.16125",
+    codeUrl: "https://github.com/AILab-CVC/SEED-Bench",
   },
   {
     title: "What makes for good visual tokenizers for large language models?",
@@ -186,6 +198,7 @@ export const publications: Publication[] = [
     year: 2023,
     tags: ["all", "vlm"],
     paperUrl: "https://arxiv.org/abs/2305.12223",
+    codeUrl: "https://github.com/TencentARC/GVT",
   },
   {
     title: "Bilateral Adaptation for Human-Object Interaction Detection with Occlusion-Robustness",
@@ -204,6 +217,7 @@ export const publications: Publication[] = [
     year: 2024,
     tags: ["all", "cv"],
     paperUrl: "https://arxiv.org/abs/2310.10700",
+    codeUrl: "https://github.com/guoyang9/PELA",
   },
   {
     title: "Text to Point Cloud Localization with Relation-Enhanced Transformer",
@@ -222,6 +236,7 @@ export const publications: Publication[] = [
     year: 2022,
     tags: ["all", "embodied", "cv"],
     paperUrl: "https://arxiv.org/abs/2207.01869",
+    codeUrl: "https://github.com/daoyuan98/SDT-HOI",
   },
   {
     title: "Chairs Can be Stood on: Overcoming Object Bias in Human-Object Interaction Detection",
@@ -231,6 +246,7 @@ export const publications: Publication[] = [
     year: 2022,
     tags: ["all", "embodied", "cv"],
     paperUrl: "https://arxiv.org/abs/2207.02400",
+    codeUrl: "https://github.com/daoyuan98/ODM",
   },
   {
     title: "Semantic-aware Triplet Loss for Image Classification",
@@ -240,6 +256,7 @@ export const publications: Publication[] = [
     year: 2022,
     tags: ["all", "cv"],
     paperUrl: "https://doi.org/10.1109/TMM.2022.3177929",
+    codeUrl: "https://github.com/daoyuan98/SemanticTriplet",
   },
   {
     title: "Multi-source distilling domain adaptation",
@@ -249,6 +266,7 @@ export const publications: Publication[] = [
     year: 2020,
     tags: ["all", "cv"],
     paperUrl: "https://arxiv.org/abs/1911.11554",
+    codeUrl: "https://github.com/daoyuan98/MDDA",
   },
 ]
 
